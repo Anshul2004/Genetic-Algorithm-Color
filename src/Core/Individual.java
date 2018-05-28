@@ -10,10 +10,10 @@ public class Individual {
 		this.gene = gene;
 	}
   
-	//Returns gene
+  //Returns gene
 	public int[] getGene() {return gene;}
   
-	//Takes the average difference 
+  //Takes the average difference 
 	public int calcFitness(int[] target) {
 		int fitness = 0;
 		for(int i = 0; i < gene.length; i++) {
