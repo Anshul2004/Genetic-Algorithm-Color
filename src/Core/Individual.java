@@ -1,7 +1,7 @@
 package Core;
 
 public class Individual {
-  //Necassary attributes for Individual: gene is an int[]
+  //Necassary attributes for Individual
   //Each int in the gene array can be viewed as a base pairing
 	private int[] gene;
 	
