@@ -13,7 +13,7 @@ public class Individual {
   //Returns gene
 	public int[] getGene() {return gene;}
   
-  //Takes the average difference 
+  //Calculates the fitness of the individual
 	public int calcFitness(int[] target) {
 		int fitness = 0;
 		for(int i = 0; i < gene.length; i++) {
